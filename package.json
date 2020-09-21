@@ -1,0 +1,35 @@
+{
+  "name": "iso-safe-buffer",
+  "description": "Safer Node.js Buffer API",
+  "version": "5.1.2",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org"
+  },
+  "devDependencies": {
+    "standard": "latest",
+    "tape": "latest"
+  },
+  "homepage": "https://github.com/isysd-mirror/iso-safe-buffer",
+  "keywords": [
+    "buffer",
+    "buffer allocate",
+    "node security",
+    "safe",
+    "safe-buffer",
+    "security",
+    "uninitialized"
+  ],
+  "license": "MIT",
+  "main": "safe-buffer.node.js",
+  "module": "safe-buffer.js",
+  "types": "safe-buffer.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isysd-mirror/iso-safe-buffer.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  }
+}
